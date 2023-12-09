@@ -1,0 +1,15 @@
+<?php
+
+$numbers = [2, 4, 7, 8, 9];
+$result = [];
+
+function evenNumbers (array $numbers) {
+	foreach ($numbers as $number) {
+		if ($number % 2 == 0) { 
+			$result[]=$number;
+			
+		}
+		};
+		return $result;
+		
+	}var_dump(evenNumbers($numbers));
